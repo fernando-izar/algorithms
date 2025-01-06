@@ -28,8 +28,16 @@ def max_heapfy(A: list, i: int) -> list:
         max_heapfy(A, bigger)
 
 
-A = [16, 4, 10, 14, 7, 9, 3, 2, 8, 1]
+def build_max_heap(A: list) -> list:
+    size_heap = len(A)
+    for i in range(size_heap // 2, 0, -1):
+        max_heapfy(A, i)
 
-max_heapfy(A, 2)
+    return A
+
+
+A = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]
+
+build_max_heap(A)
 
 print(A)
