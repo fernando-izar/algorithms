@@ -1,0 +1,23 @@
+{
+  "conversation_id": "abc123",
+  "messages": [
+    {
+      "id": 1,
+      "timestamp": "2025-12-14T12:34:56Z",
+      "from": "user_101",
+      "text": "Hi, my email is john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-12-14T12:35:10Z",
+      "from": "agent_5",
+      "text": "Thanks John. We’ll contact you at john.doe@example.com."
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-12-14T12:35:30Z",
+      "from": "user_101",
+      "text": "Actually, use john.personal@gmail.com instead."
+    }
+  ]
+}
